@@ -44,7 +44,7 @@ public class salvar extends HttpServlet {
         
         EntityManager em;
         EntityManagerFactory emf;
-        emf = Persistence.createEntityManagerFactory("teste3PU");
+        emf = Persistence.createEntityManagerFactory("enge100PU");
         em = emf.createEntityManager();
         em.getTransaction().begin();
         em.persist(usuario);
