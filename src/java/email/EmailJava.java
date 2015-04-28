@@ -23,7 +23,7 @@ public class EmailJava {
         
 Email email = new SimpleEmail();
 email.setHostName("mail.enge10.com");
-email.setSmtpPort(25);
+email.setSmtpPort(587);
 //email.setAuthenticator(new DefaultAuthenticator("username", "password"));
 email.setAuthentication("enge10","30303030");
 email.setSSLOnConnect(true);
